@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Minko, slogans et images</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap">
+<style>
+/* Une page de travail aux couleurs de Mel : bandeau prune, contenu blanc, un seul thème choisi. */
+:root{--plum:#532943;--plumd:#2C1020;--pink:#EB6BAF;--green:#77BC1F;--ink:#2C1020;--ink2:#6b5a64;--line:#eadfe5;--soft:#faf5f8;--bg:#fff;--font:'Montserrat',-apple-system,'Helvetica Neue',Arial,sans-serif}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.55;font-weight:500}
+.w{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{background:var(--plum);color:#fff;padding-block:44px 40px}
+header h1{font-size:clamp(34px,6vw,56px);font-weight:900;line-height:1.05;letter-spacing:-.02em;margin:0 0 12px;text-wrap:balance}
+header h1 span{color:var(--pink)}
+header p{margin:0;max-width:64ch;color:#f2e6ec}
+nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:22px;font-weight:700;font-size:14px}
+nav a{color:#fff}
+section{padding-block:38px 6px}
+h2{font-size:28px;font-weight:900;letter-spacing:-.015em;margin:0 0 14px;color:var(--plum);text-wrap:balance}
+h3{font-size:18px;font-weight:800;margin:24px 0 6px;color:var(--plum)}
+p{margin:0 0 12px;max-width:72ch}
+ul,ol{margin:0 0 14px;padding-left:22px;max-width:72ch}li{margin-bottom:6px}
+.note{color:var(--ink2);font-size:14px}
+.alerte{background:var(--soft);border-left:6px solid var(--pink);padding:16px 20px;margin:0 0 14px}
+.alerte p:last-child{margin:0}
+.t{overflow-x:auto;margin:0 0 16px}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:15px}
+th{font-weight:800;text-align:left;color:var(--plum);border-bottom:2px solid var(--plum);padding:8px 10px 8px 0;vertical-align:bottom}
+td{padding:9px 10px 9px 0;border-bottom:1px solid var(--line);vertical-align:top}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.filtres{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.f{font:700 14px var(--font);border:2px solid var(--plum);background:#fff;color:var(--plum);border-radius:999px;padding:7px 14px;cursor:pointer}
+.f.on{background:var(--plum);color:#fff}.f:focus-visible{outline:3px solid var(--pink);outline-offset:2px}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:22px 16px}
+figure{margin:0;min-width:0}figure img{display:block;width:100%;aspect-ratio:4/5;border:1px solid var(--line)}
+figcaption{font-size:13px;line-height:1.4;color:var(--ink2);margin-top:7px}
+figcaption b{color:var(--plum)}
+.u{font-weight:800;color:var(--plum)}.u-payant{color:#4f8a0c}.u-attendre{color:#c2357f}
+.e{display:grid;grid-template-columns:150px minmax(0,1fr);gap:4px 18px;padding:14px 0;border-top:1px solid var(--line)}
+.e b{color:var(--plum);font-weight:800}.e div p:last-child{margin:0}
+@media (max-width:620px){.e{grid-template-columns:1fr}}
+footer{padding-block:34px 44px;color:var(--ink2);font-size:14px}
+</style>
+<style>body{margin:0}</style></head><body>
+<header><div class="w">
+<h1>Minko, <span>slogans et images</span></h1>
+<p>Les 25 images au format Instagram et Facebook (1080 × 1350), les slogans et les légendes des premiers posts. Rien n’est publié. Tout est à relire et à choisir ensemble.</p>
+<nav><a href="#images">Images</a><a href="#slogans">Slogans</a><a href="#posts">Premiers posts</a></nav>
+</div></header>
+<main class="w">
+<section id="images">
+<h2>Les images</h2>
+<p>Un appui long sur une image permet de l’enregistrer. La police (Montserrat) et la variante du logo restent à valider par Mel.</p>
+<div class="filtres"><button class="f on" data-u="tout" id="f-tout">Toutes (25)</button><button class="f" data-u="payant" id="f-payant">Payant possible (13)</button><button class="f" data-u="organique" id="f-organique">Posts gratuits (6)</button><button class="f" data-u="attendre" id="f-attendre">Attendre du monde (2)</button><button class="f" data-u="vote" id="f-vote">À voter (3)</button><button class="f" data-u="juriste" id="f-juriste">Juriste d’abord (1)</button></div>
+<div class="g" id="g"><figure data-u="payant"><img src="images/01-maintenant-ici.png" alt="Maintenant, ici, comme en vrai." loading="lazy"><figcaption><b>01</b> <span class="u u-payant">Payant possible</span><br>Maintenant, ici, comme en vrai.</figcaption></figure><figure data-u="attendre"><img src="images/02-rendez-vous-ce-soir.png" alt="Tu as déjà rendez-vous ce soir" loading="lazy"><figcaption><b>02</b> <span class="u u-attendre">Attendre du monde</span><br>Tu as déjà rendez-vous ce soir</figcaption></figure><figure data-u="organique"><img src="images/03-peut-etre-ce-soir.png" alt="Tu as peut-être rendez-vous ce soir." loading="lazy"><figcaption><b>03</b> <span class="u u-organique">Posts gratuits</span><br>Tu as peut-être rendez-vous ce soir.</figcaption></figure><figure data-u="payant"><img src="images/04-swipes-sans-fin.png" alt="Marre des swipes sans fin ?" loading="lazy"><figcaption><b>04</b> <span class="u u-payant">Payant possible</span><br>Marre des swipes sans fin ?</figcaption></figure><figure data-u="payant"><img src="images/05-trois-semaines.png" alt="Trois semaines de messages. Toujours pas de café." loading="lazy"><figcaption><b>05</b> <span class="u u-payant">Payant possible</span><br>Trois semaines de messages. Toujours pas de café.</figcaption></figure><figure data-u="payant"><img src="images/06-messages-pas-demandes.png" alt="Des messages que personne n&#x27;a demandés." loading="lazy"><figcaption><b>06</b> <span class="u u-payant">Payant possible</span><br>Des messages que personne n&#x27;a demandés.</figcaption></figure><figure data-u="payant"><img src="images/07-parler-dans-le-vide.png" alt="Marre de parler dans le vide ?" loading="lazy"><figcaption><b>07</b> <span class="u u-payant">Payant possible</span><br>Marre de parler dans le vide ?</figcaption></figure><figure data-u="payant"><img src="images/08-payer-pour-etre-vu.png" alt="Payer pour être vu." loading="lazy"><figcaption><b>08</b> <span class="u u-payant">Payant possible</span><br>Payer pour être vu.</figcaption></figure><figure data-u="payant"><img src="images/09-on-se-voit-quand.png" alt="On se voit quand ? Dans deux semaines, peut-être." loading="lazy"><figcaption><b>09</b> <span class="u u-payant">Payant possible</span><br>On se voit quand ? Dans deux semaines, peut-être.</figcaption></figure><figure data-u="payant"><img src="images/10-disparu-sans-un-mot.png" alt="Disparu sans un mot." loading="lazy"><figcaption><b>10</b> <span class="u u-payant">Payant possible</span><br>Disparu sans un mot.</figcaption></figure><figure data-u="payant"><img src="images/11-trop-ou-rien.png" alt="Trop de messages pour les unes. Aucun pour les autres." loading="lazy"><figcaption><b>11</b> <span class="u u-payant">Payant possible</span><br>Trop de messages pour les unes. Aucun pour les autres.</figcaption></figure><figure data-u="payant"><img src="images/12-dire-non.png" alt="Dire non, c&#x27;est déjà toute une histoire." loading="lazy"><figcaption><b>12</b> <span class="u u-payant">Payant possible</span><br>Dire non, c&#x27;est déjà toute une histoire.</figcaption></figure><figure data-u="payant"><img src="images/13-on-se-voit-ou.png" alt="Et on se voit où ?" loading="lazy"><figcaption><b>13</b> <span class="u u-payant">Payant possible</span><br>Et on se voit où ?</figcaption></figure><figure data-u="attendre"><img src="images/14-jeudi-18h47.png" alt="Tu finis plus tôt. Quelqu&#x27;un aussi." loading="lazy"><figcaption><b>14</b> <span class="u u-attendre">Attendre du monde</span><br>Tu finis plus tôt. Quelqu&#x27;un aussi.</figcaption></figure><figure data-u="organique"><img src="images/15-mardi-20h15.png" alt="Ton plan tombe à l&#x27;eau. Ta soirée reste libre." loading="lazy"><figcaption><b>15</b> <span class="u u-organique">Posts gratuits</span><br>Ton plan tombe à l&#x27;eau. Ta soirée reste libre.</figcaption></figure><figure data-u="organique"><img src="images/16-mercredi-12h10.png" alt="Une heure de libre au Flon. Quelqu&#x27;un d&#x27;autre ?" loading="lazy"><figcaption><b>16</b> <span class="u u-organique">Posts gratuits</span><br>Une heure de libre au Flon. Quelqu&#x27;un d&#x27;autre ?</figcaption></figure><figure data-u="organique"><img src="images/17-personne-ne-le-sait.png" alt="Tu es libre. Les autres sont libres. Personne ne le sait." loading="lazy"><figcaption><b>17</b> <span class="u u-organique">Posts gratuits</span><br>Tu es libre. Les autres sont libres. Personne ne le sait.</figcaption></figure><figure data-u="organique"><img src="images/18-le-m2.png" alt="Le M2 est plein de gens libres." loading="lazy"><figcaption><b>18</b> <span class="u u-organique">Posts gratuits</span><br>Le M2 est plein de gens libres.</figcaption></figure><figure data-u="juriste"><img src="images/19-qui-est-libre.png" alt="Les autres savent qui pourrait te plaire. Minko sait qui est libre quand tu l&#x27;es." loading="lazy"><figcaption><b>19</b> <span class="u u-juriste">Juriste d’abord</span><br>Les autres savent qui pourrait te plaire. Minko sait qui est libre quand tu l&#x27;es.</figcaption></figure><figure data-u="vote"><img src="images/20-go-as-you-are.png" alt="Go as you are." loading="lazy"><figcaption><b>20</b> <span class="u u-vote">À voter</span><br>Go as you are.</figcaption></figure><figure data-u="vote"><img src="images/21-pas-seul-ce-soir.png" alt="T&#x27;es pas seul ce soir." loading="lazy"><figcaption><b>21</b> <span class="u u-vote">À voter</span><br>T&#x27;es pas seul ce soir.</figcaption></figure><figure data-u="vote"><img src="images/22-commence-par-un-oui.png" alt="Ici, tout commence par un oui." loading="lazy"><figcaption><b>22</b> <span class="u u-vote">À voter</span><br>Ici, tout commence par un oui.</figcaption></figure><figure data-u="organique"><img src="images/23-ta-soiree-libre.png" alt="Ta soirée libre, c&#x27;est la belle rencontre de quelqu&#x27;un d&#x27;autre." loading="lazy"><figcaption><b>23</b> <span class="u u-organique">Posts gratuits</span><br>Ta soirée libre, c&#x27;est la belle rencontre de quelqu&#x27;un d&#x27;autre.</figcaption></figure><figure data-u="payant"><img src="images/24-le-canape.png" alt="Notre concurrent, c&#x27;est ton canapé." loading="lazy"><figcaption><b>24</b> <span class="u u-payant">Payant possible</span><br>Notre concurrent, c&#x27;est ton canapé.</figcaption></figure><figure data-u="payant"><img src="images/25-temps-partage.png" alt="Le réseau du temps partagé." loading="lazy"><figcaption><b>25</b> <span class="u u-payant">Payant possible</span><br>Le réseau du temps partagé.</figcaption></figure></div>
+</section>
+<section id="slogans">
+<h2>Les slogans</h2>
+<h3>Finalistes du 6 août, jamais tranchés</h3>
+<ul><li>Go as you are.</li><li>T’es pas seul ce soir.</li><li>Ici, tout commence par un oui.</li></ul>
+<h3>Affichés aujourd’hui dans l’app et sur le site</h3>
+<ul><li>Le réseau du temps partagé.</li><li>Les gens dispo en même temps que toi, pas loin.</li><li>La vraie vie, maintenant.</li></ul>
+<h3>Nouveaux, de David</h3>
+<ul><li>Maintenant, ici, comme en vrai.</li><li>Marre des swipes sans fin ?</li><li>Tu as déjà rendez-vous ce soir.</li></ul>
+</section>
+<section id="posts">
+<h2>Les neuf premiers posts</h2>
+<p>Bio proposée : « Les gens dispo en même temps que toi, pas loin. En test à Lausanne. 18 ans et plus. »</p>
+<div class="t"><table><tr><th>Post</th><th>Image</th><th>Légende</th></tr>
+<tr><td>1</td><td>25 Temps partagé</td><td>Minko montre les gens dispo en même temps que toi, pas loin. En test à Lausanne.</td></tr>
+<tr><td>2</td><td>01 Maintenant, ici</td><td>Tu ouvres un créneau. Tu vois qui partage ce temps.</td></tr>
+<tr><td>3</td><td>17 Personne ne le sait</td><td>Il suffit de le dire.</td></tr>
+<tr><td>4</td><td>05 Trois semaines</td><td>Douze minutes de speed chat. À la fin, chacun choisit en secret.</td></tr>
+<tr><td>5</td><td>13 On se voit où</td><td>Si vous voulez vous voir, Minko propose un lieu public à mi-chemin.</td></tr>
+<tr><td>6</td><td>24 Le canapé</td><td>Il est très fort. On le sait.</td></tr>
+<tr><td>7</td><td>12 Dire non</td><td>Si tu t’arrêtes là, l’autre ne saura pas pourquoi.</td></tr>
+<tr><td>8</td><td>04 Swipes sans fin</td><td>Tu ouvres, tu vois qui est dispo, tu refermes.</td></tr>
+<tr><td>9</td><td>08 Payer pour être vu</td><td>La visibilité ne se vend pas sur Minko.</td></tr></table></div>
+</section>
+</main>
+<footer class="w">Préparé le 4 novembre 2026, mis en ligne pour l’équipe le 17 novembre. Rien n’a été publié sur Instagram ni Facebook.</footer>
+<script>
+(function(){var b=document.querySelectorAll('.f'),c=document.querySelectorAll('#g figure');
+b.forEach(function(x){x.addEventListener('click',function(){b.forEach(function(y){y.classList.toggle('on',y===x)});
+var u=x.getAttribute('data-u');c.forEach(function(f){f.hidden=!(u==='tout'||f.getAttribute('data-u')===u)})})})})();
+</script>
+</body></html>
